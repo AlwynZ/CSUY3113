@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(150,14): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(150,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(150,34): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(150,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(151,13): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(151,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(151,33): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(151,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(152,12): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(152,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(152,30): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(152,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(153,14): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(153,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(153,34): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(153,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(154,13): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(154,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(154,32): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(154,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(155,14): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(155,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(155,33): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\main.cpp(155,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SDLProject.vcxproj -> C:\Users\Alwyn Zhang\Videos\CSUY3113\P2\Debug\SDLProject.exe
