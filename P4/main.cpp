@@ -149,13 +149,9 @@ void Initialize() {
 
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-
-    // Initialize Game Objects
-
-    // Initialize Player
     state.player = new Entity();
     state.player->entityType = PLAYER;
-    state.player->position = glm::vec3(-4.5f, 0, 0);
+    state.player->position = glm::vec3(-4.8f, -2.0f, 0);
     state.player->movement = glm::vec3(0);
     state.player->acceleration = glm::vec3(0, -4.25f, 0);
     state.player->velocity = glm::vec3(0);
@@ -209,8 +205,7 @@ void Initialize() {
     state.enemy[0].aiState = PATROL;
     state.enemy[0].height = 1.0f;
     state.enemy[0].width = 0.6f;
-    
-    
+   
     state.enemy[1].textureID = enemyTextureID;
     state.enemy[1].position = glm::vec3(2, 0.0f, 0);
     state.enemy[1].entityType = ENEMY;
@@ -230,7 +225,7 @@ void Initialize() {
     state.enemy[2].aiState = FOLLOW;
     state.enemy[2].height = 0.8f;
     state.enemy[2].width = 0.6f;
-    state.enemy[2].jpower = 2.0f;
+    state.enemy[2].jpower = 1.5f;
 
 }
 
@@ -260,7 +255,7 @@ void ProcessInput() {
                 }
                 break;
             }
-            break; // SDL_KEYDOWN
+            break;
         }
     }
 

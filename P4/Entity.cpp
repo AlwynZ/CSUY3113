@@ -153,13 +153,14 @@ void Entity::AICHASER(Entity* player) {
 void Entity::AIJUMPER(Entity* player) {
     switch (aiType) {
     case FOLLOW:
-        if (glm::distance(position, player->position) < 1.0f && collideBottom)  {
+        /*
+        if (glm::distance(position, player->position) < .0f && collideBottom)  {
             jump = true;
         }
+        */
         if (glm::distance(position, player->position) < 2.0f) {
             aiState = STOP;
         }
-
         else {
             if (player->position.x < position.x) {
                 movement = glm::vec3(-1.5, 0, 0);
