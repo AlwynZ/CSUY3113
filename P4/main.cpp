@@ -220,6 +220,7 @@ void Initialize() {
     state.enemy[2].position = glm::vec3(4, -2.25f, 0);
     state.enemy[2].entityType = ENEMY;
     state.enemy[2].speed = 1;
+    state.enemy[2].acceleration = glm::vec3(0, -4.5f, 0);
     state.enemy[2].movement = glm::vec3(1, 0, 0);
     state.enemy[2].aiType = JUMPER;
     state.enemy[2].aiState = FOLLOW;

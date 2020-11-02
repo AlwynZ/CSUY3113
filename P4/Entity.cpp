@@ -151,13 +151,15 @@ void Entity::AICHASER(Entity* player) {
 }
 
 void Entity::AIJUMPER(Entity* player) {
+    bool jumped = false;
     switch (aiType) {
     case FOLLOW:
-        /*
-        if (glm::distance(position, player->position) < .0f && collideBottom)  {
-            jump = true;
+        
+        if (glm::distance(position, player->position) < 1.5 && !inAir)  {
+            velocity.y = jpower;
+            jumped = true;
         }
-        */
+        
         if (glm::distance(position, player->position) < 2.0f) {
             aiState = STOP;
         }
@@ -205,9 +207,8 @@ void Entity::Update(float deltaTime, Entity* player, Entity* object, int objectC
     }
 
     if (jump) {
-        jump = false;
-
         velocity.y += jpower;
+        jump = false;
     }
 
     velocity.x = movement.x * speed;
