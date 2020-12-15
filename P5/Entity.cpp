@@ -120,6 +120,7 @@ void Entity::CheckCollisionsY(Map* map)
 void Entity::CheckCollisionsX(Map* map)
 {
     lastCollision = PLATFORM;
+
     glm::vec3 left = glm::vec3(position.x - (width / 2), position.y, position.z);
     glm::vec3 right = glm::vec3(position.x + (width / 2), position.y, position.z);
 
@@ -137,6 +138,7 @@ void Entity::CheckCollisionsX(Map* map)
         collideRight = true;
     }
 }
+
 
 void Entity::AIPATROLLER() {
     switch (aiState) {

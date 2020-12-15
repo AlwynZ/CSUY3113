@@ -42,8 +42,8 @@ void Level1::Initialize() {
     state.player->lives = 0;
     state.player->gotHit = false;
 
-    state.player->height = 0.8f;
-    state.player->width = 0.6f;
+    state.player->height = 1.0f;
+    state.player->width = 0.5f;
 
     state.player->jpower = 5.0f;
 

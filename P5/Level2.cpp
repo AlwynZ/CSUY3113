@@ -67,7 +67,7 @@ void Level2::Initialize() {
     state.enemy[1].aiState = PATROL;
     state.enemy[1].height = 1.0f;
     state.enemy[1].width = 0.6f;
-    state.enemy[0].moveLimit = 10;
+    //state.enemy[1].moveLimit = 5;
 
 
 
